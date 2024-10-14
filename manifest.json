@@ -1,0 +1,12 @@
+{
+  "manifest_version": 3,
+  "name": "Tab Manager",
+  "description": "Manage and organize your open tabs efficiently",
+  "version": "1.0",
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "permissions": [
+    "tabs"
+  ]
+}

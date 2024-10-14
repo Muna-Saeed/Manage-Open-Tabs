@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Tab Manager</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        width: 350px;
+        padding: 10px;
+        text-align: center;
+        background-color: #1C79C5;
+        color: white;
+      }
+
+      button {
+    margin: 5px;
+    padding: 18px;
+    background-color: #0C3454;
+    font-size: 16px;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+  }
+
+  button:hover {
+    background-color: #082338;
+  }
+
+  div {
+    font-size: 14px;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 8px;
+  }
+
+    </style>
+  </head>
+  <body>
+    <h1>Tab Manager</h1>
+    <button id="listTabs">List Open Tabs</button>
+    <button id="closeTabs">Close Current Tab</button>
+    <button id="groupTabs">Group Tabs by Domain</button>
+    <div id="groupedTabs"></div>
+    <button id="closeDomainTabs">Close All Tabs from Current Domain</button>
+    <button id="moveTabsToNewWindow">Move Tabs to New Window</button>
+
+    <div id="tabList"></div>
+
+    <script src="popup.js"></script>
+  </body>
+</html>
